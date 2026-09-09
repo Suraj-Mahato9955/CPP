@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+// Parent class 1
+class Father {
+public:
+    void money() {
+        cout << "Father has money" << endl;
+    }
+};
+
+// Parent class 2
+class Mother {
+public:
+    void care() {
+        cout << "Mother gives care" << endl;
+    }
+};
+
+// Child class
+class Child : public Father, public Mother {
+public:
+    void study() {
+        cout << "Child is studying" << endl;
+    }
+};
+
+int main() {
+    Child c;
+
+    c.money();   // From Father
+    c.care();    // From Mother
+    c.study();   // Child's own function
+
+    return 0;
+}
