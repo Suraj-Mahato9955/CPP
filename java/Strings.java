@@ -27,7 +27,23 @@ import java.util.Scanner;
             System.out.println(fullName.charAt(i));             t o n y  s t a r k
         }
     }
-}*/
+}*/ 
 
 //--------------Compare two strings-------------
+public class Strings {     public static void main(String[] args) {
+        // compare
+        String name1 = "Tony";
+        String name2 = "stark";
 
+        //1 s1 > s2 : +ve value
+        //2 s1 < s2 : 0
+        //3 s1 == s2 : -ve value
+
+        if(name1.compareTo(name2) == 0) {
+            System.out.println("Strings are equal");
+
+        } else {
+            System.out.println("String are not equal");
+        }
+    }
+}
