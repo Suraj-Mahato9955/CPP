@@ -9,13 +9,18 @@ import java.util.Scanner;
     }
 } */
 
-public class Strings {
-    public static void main(String[] args) {
+//------------------------------------------------------
 
+/*public class Strings {
+    public static void main(String[] args) {
+                                                     output---- Tony Stark
+                                                               10
         // Concatenation
         String firstName = "Tony";
         String lastName = "Stark";
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
+        System.out.println(fullName.length());
     }
-}
+}*/
+
