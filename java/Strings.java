@@ -13,14 +13,21 @@ import java.util.Scanner;
 
 /*public class Strings {
     public static void main(String[] args) {
-                                                     output---- Tony Stark
-                                                               10
+                                                     //output---- Tony Stark
+                                                        //       10
         // Concatenation
         String firstName = "Tony";
         String lastName = "Stark";
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
         System.out.println(fullName.length());
+
+        //charAt
+        for(int i=0; i<fullName.length(); i++) {            --- 10  
+            System.out.println(fullName.charAt(i));             t o n y  s t a r k
+        }
     }
 }*/
+
+//--------------Compare two strings-------------
 
